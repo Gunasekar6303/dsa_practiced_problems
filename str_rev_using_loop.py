@@ -9,5 +9,5 @@ def reverse_str(characters):
         reversed_word.append(rev_word)
     return " ".join(reversed_word)
 
-characters = "Hello Wordl"
+characters = "Hello World"
 print(reverse_str(characters))
