@@ -1,5 +1,8 @@
-def reverse_string(text):
-    return text[::-1]
+def reverse_str(characters):
+    reversed_word = ""
 
-my_string = ("hello")
-print(reverse_string(my_string))
+    for i in range(len(characters)-1,-1,-1):
+        reversed_word += characters[i]
+    return reversed_word
+characters = "Hello"
+print(reverse_str(characters))
